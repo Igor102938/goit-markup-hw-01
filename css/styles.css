@@ -40,7 +40,13 @@
 .posluga {
     background-color: var(--siniy);
     color: var(--beliy);
+    font-size: 16px;
 
+}
+.navigasia>button {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--slabo-cherniy);
 }
  /* heder */
 .logo {
@@ -65,11 +71,38 @@
 }
 
 /* portfolio */
-.navigasia > button{
- size: 16px;
- line-height: 1.6;
- color: var(--slabo-cherniy);
-}
 .imgg .hh {
     color:var(--slabo-cherniy) ;
+    font-size: 18px;
+}
+.p {
+    font-size: 16px;
+}
+
+/* index.html */
+.hhh {
+    color: var(--slabo-cherniy);
+}
+.bol-slov {
+    font-size: 36px;
+}
+
+/* hero */
+.h {
+    color: #FFFFFF;
+    font-size: 44px;
+}
+.fon {
+    background-color: #2F303A;
+
+}
+
+/* contact */
+.contact {
+    color: #757575;
+    font-size: 16px;
+}
+.email {
+    color: #2196F3;
+    font-size: 16px;
 }
