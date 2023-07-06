@@ -13,89 +13,91 @@
     --siniy: #2196F3;
     --beliy: #FFFFFF;
 }
-
-.li {
-    text-decoration: none;
-}
-
+/* Body */
 .body {
     font-family: Roboto, sans-serif;
     color: var(--seriy);
 }
+/* Hover Focus */
 
-/* Navigacia */
-.nav .studio {
+.header .studio:hover,
+.header .studio:focus {
+    color: var(--siniy);
+}
+
+.header .portfolio:hover,
+.header .portfolio:focus {
+    color: var(--siniy);
+}
+
+.header .contact:hover,
+.header .contact:focus {
+    color: var(--siniy);
+}
+
+.header .email:hover,
+.header .email:focus {
+    color: var(--siniy);
+}
+
+.header .nomer:hover,
+.header .nomer:focus {
+    color: var(--siniy);
+}
+
+
+/* Shapka */
+.header .web {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--siniy);
+    text-decoration: none;
+    width: 400;
+}
+
+.header .studio {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
     color: var(--slabo-cherniy);
-    size: 16px;
-    line-height: 1.15;
 }
 
-.nav .studio:hover,
-.nav .studio:focus {
+.header .portfolio {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
     color: var(--siniy);
 }
 
-.nav .portfolio:hover,
-.nav .portfolio:focus {
-    color: var(--siniy);
+.header .contact {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--slabo-cherniy);
 }
 
-.nav .contact:hover,
-.nav .contact:focus {
-    color: var(--siniy);
-}
-
-.navigasia .button:hover,
-.navigasia .button:focus {
-    background-color: var(--siniy);
-}
-
-.navigasia .button {
-    size: 16px;
-    line-height: 1.6;
-}
-
-.portfolio {
-    size: 16px;
-    line-height: 1.15;
-    color: var(--siniy);
-}
-
-.contact {
-    size: 16px;
-    line-height: 1.15;
+.header .logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    width: 700;
     color: var(--cherniy);
 }
 
-
-/* knopka */
-.fon .posluga {
-    background-color: var(--siniy);
-    color: var(--beliy);
-    font-size: 16px;
-    text-align: center;
+.header .email {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--seriy);
 }
 
-.navigasia>button {
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--slabo-cherniy);
-}
-
-/* heder */
-.logo {
-    font-family: Raleway;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-}
-
-.web {
-    font-family: Raleway;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--siniy);
-    text-decoration: none;
+.header .nomer {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--seriy);
 }
 
 /* footer */
@@ -103,56 +105,93 @@
     background-color: #2F303A;
 }
 
-.footer a {
-    color: #ffffff;
+.footer .web {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--siniy);
+    text-decoration: none;
+    width: 400;
 }
 
-/* portfolio */
-.imgg .hh {
+.footer .studio {
+    color: var(--siniy);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.footer .portfolio {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
     color: var(--slabo-cherniy);
-    font-size: 18px;
 }
 
-.p {
-    font-size: 16px;
-}
-
-/* index.html */
-.hhh {
+.footer .contact {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
     color: var(--slabo-cherniy);
 }
 
-.bol-slov {
-    font-size: 36px;
+.footer .logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    width: 700;
+    color: var(--beliy);
 }
 
-.zanatia .hhh {
-    text-align: center;
+.footer .email {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--seriy);
+    font-style: normal;
 }
 
-.comanda .hhh {
-    text-align: center;
+.footer .nomer {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--seriy);
+    font-style: normal;
 }
 
-/* hero */
-.h {
-    color: #FFFFFF;
-    font-size: 44px;
-    text-align: center;
+.gorod {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--beliy);
+    font-style: normal;
 }
-
-.fon {
-    background-color: #2F303A;
-
+/* Knopki */
+.navigasia .button {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.6;
+        background-color: #F5F4FA;
+        color: var(--slabo-cherniy);
 }
-
-/* contact */
-.contact {
-    color: #757575;
-    font-size: 16px;
+.navigasia .button:hover,
+.navigasia .button:focus {
+    color: var(--beliy);
+    background-color: var(--siniy);
 }
-
-.email {
-    color: #2196F3;
-    font-size: 16px;
+/* Ocnovnoi kontent */
+.menu .zagolovok {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2;
+        color: var(--slabo-cherniy);
+}
+.menu .p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.8;
+        color: var(--seriy);
 }

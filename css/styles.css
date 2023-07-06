@@ -14,130 +14,211 @@
 --beliy:#FFFFFF;
 }
 
-.li {
- text-decoration: none;
-}
-
+/* Body */
 .body{
     font-family: Roboto, sans-serif;
     color:var(--seriy);
 }
 
-/* Navigacia */
-.nav .studio{
-    color:var(--siniy);
-    size: 16px;
-    line-height: 1.15;
-}
-.nav .studio:hover ,
-.nav .studio:focus{
+/* Hover Focus */
+
+.header .studio:hover ,
+.header .studio:focus{
     color: var(--siniy);
 }
 
- .nav .portfolio:hover,
- .nav .portfolio:focus {
+ .header .portfolio:hover,
+ .header .portfolio:focus {
      color: var(--siniy);}
 
-.nav .contact:hover,
-.nav .contact:focus {
+.header .contact:hover,
+.header .contact:focus {
     color: var(--siniy);}
 
-.navigasia .button:hover,
-.navigasia .button:focus {
-    background-color: var(--siniy);
+.header .email:hover,
+.header .email:focus {
+ color: var(--siniy);
 }
-.navigasia .button {
-    size: 16px;
-    line-height: 1.6;
+.header .nomer:hover,
+.header .nomer:focus {
+    color: var(--siniy);
 }
-.portfolio {
-    size: 16px;
-    line-height: 1.15;
-}
-.contact {
-    size: 16px;
-    line-height: 1.15;
-    color: #212121;
-}
-
-
-     /* knopka */
-.fon .posluga {
-    background-color: var(--siniy);
-    color: var(--beliy);
-    font-size: 16px;
-    text-align:center;
-}
-.navigasia > button {
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--slabo-cherniy);
-}
- /* heder */
-.logo {
-    font-family:Raleway;
-        font-size: 26px;
-        line-height: 1.2;
-        text-decoration: none;
-}
-.web {
-    font-family:Raleway;
+/* Shapka */
+.header .web {
+    font-family: Raleway;
     font-size: 26px;
     line-height: 1.2;
     color: var(--siniy);
     text-decoration: none;
-} 
-/* footer */
-.footer {
- background-color: #2F303A;
+    width: 400;
 }
-.footer a {
-    color: #ffffff;
-}
-
-/* portfolio */
-.imgg .hh {
-    color:var(--slabo-cherniy) ;
-    font-size: 18px;
-}
-.p {
-    font-size: 16px;
+.header .studio {
+    color: var(--siniy);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
 }
 
-/* index.html */
-.hhh {
-    color: var(--slabo-cherniy);
+.header .portfolio {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        color: var(--slabo-cherniy);
 }
-.bol-slov {
-    font-size: 36px;
+.header .contact {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        color:var(--slabo-cherniy);
 }
-.zanatia .hhh {
-    text-align: center;
+.header .logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    width: 700;
+    color: var(--cherniy);
 }
-.comanda .hhh {
-    text-align: center;
+.header .email {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        color: var(--seriy);
 }
-.comanda {
-    background-color: #F5F4FA;
+.header .nomer {
+    font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        color: var(--seriy);
 }
 
-/* hero */
-.h {
+     /* Hero */
+.posluga {
+    background-color: var(--siniy);
+    color: var(--beliy);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.8;
+        text-align: center;
+}
+.hero-section {
+    background-color: #2F303A;
+}
+.hero-text {
     color: #FFFFFF;
     font-size: 44px;
     text-align: center;
+    font-weight: 900;
+    line-height: 1.4;
 }
-.fon {
-    background-color: #2F303A;
+/* Perevagi */
+.perevagi .zagolovok {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    color:var(--slabo-cherniy) ;
+}
 
+.perevagi .text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--seriy);
+}
+/* Zanatia */
+.zanatia .zagolovok {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: var(--slabo-cherniy);
+}
+/* Komanda */
+.comanda-section {
+    background-color: #F5F4FA;
+}
+.comanda-section .zagolovok-komanda {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        color: var(--slabo-cherniy);
+}
+.comanda-section .ima {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.18;
+        color: var(--slabo-cherniy);
+}
+.comanda-section .zanatia {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.18;
+        color: var(--seriy);
 }
 
-/* contact */
-.contact {
-    color: #757575;
-    font-size: 16px;
+/* Footer */
+.footer {
+ background-color: #2F303A;
 }
-.email {
-    color: #2196F3;
-    font-size: 16px;
+.footer .web {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--siniy);
+    text-decoration: none;
+    width: 400;
+}
+
+.footer .studio {
+    color: var(--siniy);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.footer .portfolio {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--slabo-cherniy);
+}
+
+.footer .contact {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--slabo-cherniy);
+}
+
+.footer .logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    width: 700;
+    color: var(--beliy);
+}
+
+.footer .email {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--seriy);
+    font-style: normal;
+}
+
+.footer .nomer {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--seriy);
+    font-style: normal;
+}
+.gorod {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: var(--beliy);
+         font-style: normal;
 }
