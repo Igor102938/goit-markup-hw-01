@@ -45,7 +45,7 @@
 }
 /* Shapka */
 .header .web {
-    font-family: Raleway;
+    font-family: Raleway; 
     font-size: 26px;
     line-height: 1.2;
     color: var(--siniy);
