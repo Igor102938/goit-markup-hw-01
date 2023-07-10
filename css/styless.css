@@ -13,6 +13,9 @@
     --siniy: #2196F3;
     --beliy: #FFFFFF;
 }
+ul {
+    list-style: none
+}
 /* Body */
 .body {
     font-family: Roboto, sans-serif;
@@ -149,8 +152,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    color: var(--seriy);
-    font-style: normal;
+    color: rgba(255, 255, 255, 0.6)
 }
 
 .footer .nomer {
@@ -158,8 +160,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    color: var(--seriy);
-    font-style: normal;
+    color: rgba(255, 255, 255, 0.6)
 }
 
 .gorod {
