@@ -60,6 +60,7 @@ ul {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
+    text-decoration: none;
 }
 
 .header .portfolio {
@@ -67,12 +68,14 @@ ul {
         font-weight: 500;
         line-height: 1.14;
         color: var(--slabo-cherniy);
+        text-decoration: none;
 }
 .header .contact {
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
         color:var(--slabo-cherniy);
+        text-decoration: none;
 }
 .header .logo {
     font-family: Raleway;
@@ -87,12 +90,14 @@ ul {
         font-weight: 500;
         line-height: 1.14;
         color: var(--seriy);
+        text-decoration: none;
 }
 .header .nomer {
     font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
         color: var(--seriy);
+        text-decoration: none;
 }
 
      /* Hero */

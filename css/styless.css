@@ -64,6 +64,7 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     color: var(--slabo-cherniy);
+    text-decoration: none;
 }
 
 .header .portfolio {
@@ -71,6 +72,7 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     color: var(--siniy);
+    text-decoration: none;
 }
 
 .header .contact {
@@ -78,6 +80,7 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     color: var(--slabo-cherniy);
+    text-decoration: none;
 }
 
 .header .logo {
@@ -94,6 +97,7 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     color: var(--seriy);
+    text-decoration: none;
 }
 
 .header .nomer {
@@ -101,6 +105,7 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     color: var(--seriy);
+    text-decoration: none;
 }
 
 /* footer */
