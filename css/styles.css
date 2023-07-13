@@ -107,15 +107,14 @@ ul {
         font-size: 16px;
         font-weight: 700;
         line-height: 1.8;
-        text-align: center;
 }
 .hero-section {
     background-color: #2F303A;
+    text-align: center;
 }
 .hero-text {
     color: #FFFFFF;
     font-size: 44px;
-    text-align: center;
     font-weight: 900;
     line-height: 1.4;
 }
