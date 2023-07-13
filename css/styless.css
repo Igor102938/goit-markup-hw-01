@@ -155,16 +155,18 @@ ul {
 .footer .email {
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.14;
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6)
 }
 
 .footer .nomer {
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.14;
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6)
 }
 
@@ -200,4 +202,7 @@ ul {
         font-weight: 400;
         line-height: 1.8;
         color: var(--seriy);
+}
+.menu .cilka {
+    text-decoration: none;
 }
