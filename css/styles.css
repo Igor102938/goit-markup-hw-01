@@ -5,6 +5,18 @@
 /* Спицефический Цвет #2196F3 */
 /* Спицефический Цвет #FFFFFF */
 
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 /* ROOT */
 :root{
 --seriy: #757575;
@@ -47,6 +59,16 @@ ul {
     color: var(--siniy);
 }
 /* Shapka */
+.header , 
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header {
+    width: 1250px;
+}
+
 .header .web {
     font-family: Raleway; 
     font-size: 26px;
@@ -84,6 +106,7 @@ ul {
     text-decoration: none;
     width: 700;
     color: var(--cherniy);
+    margin-right: 93px;
 }
 .header .email {
         font-size: 14px;
@@ -99,6 +122,26 @@ ul {
         color: var(--seriy);
         text-decoration: none;
 }
+
+.header .navigacia {
+    display: flex;
+}
+.header .ul {
+    display: flex;
+}
+
+.navigacia .item {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: 100px;
+}
+
+.ul .item {
+    display: block;
+    margin-right: 40px;
+}
+
 
      /* Hero */
 .posluga {
@@ -119,11 +162,25 @@ ul {
     line-height: 1.4;
 }
 /* Perevagi */
+.perevagi{
+    width: 1170px;
+}
+
+.perevagi .ul {
+    display: flex;
+    justify-content: space-around;
+}
+.perevagi .item {
+    width: 250px;
+    height: 100px;
+}
+
 .perevagi .zagolovok {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     color:var(--slabo-cherniy) ;
+    margin-top: 90px;
 }
 
 .perevagi .text {
@@ -138,16 +195,26 @@ ul {
     font-weight: 700;
     line-height: 1.16;
     color: var(--slabo-cherniy);
+    text-align: center;
+    margin-top: 133px;
+}
+.zanatia .ul {
+    display: flex;
+    justify-content: space-around;
+
 }
 /* Komanda */
 .comanda-section {
     background-color: #F5F4FA;
+    width: 1170px;
 }
 .comanda-section .zagolovok-komanda {
         font-size: 36px;
         font-weight: 700;
         line-height: 1.16;
         color: var(--slabo-cherniy);
+        text-align: center;
+        margin-top: 190px;
 }
 .comanda-section .ima {
         font-size: 16px;
@@ -161,10 +228,14 @@ ul {
         line-height: 1.18;
         color: var(--seriy);
 }
+.comanda-section .comanda-ul {
+    display: flex;
+}
 
 /* Footer */
 .footer {
  background-color: #2F303A;
+ margin-top: 120px;
 }
 .footer .web {
     font-family: Raleway;

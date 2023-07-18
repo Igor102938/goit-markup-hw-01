@@ -5,6 +5,15 @@
 /* Спицефический Цвет #2196F3 */
 /* Спицефический Цвет #FFFFFF */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
 /* ROOT */
 :root {
     --seriy: #757575;
@@ -50,6 +59,17 @@ ul {
 
 
 /* Shapka */
+.header,
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    width: 1250px;
+}
+
 .header .web {
     font-family: Raleway;
     font-size: 26px;
@@ -60,18 +80,18 @@ ul {
 }
 
 .header .studio {
+    color: var(--slabo-cherniy);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    color: var(--slabo-cherniy);
     text-decoration: none;
 }
 
 .header .portfolio {
+    color: var(--siniy);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    color: var(--siniy);
     text-decoration: none;
 }
 
@@ -90,6 +110,7 @@ ul {
     text-decoration: none;
     width: 700;
     color: var(--cherniy);
+    margin-right: 93px;
 }
 
 .header .email {
@@ -108,6 +129,24 @@ ul {
     text-decoration: none;
 }
 
+.header .navigacia {
+    display: flex;
+}
+
+.header .ul {
+    display: flex;
+}
+.navigacia .item {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: 100px;
+}
+
+.ul .item {
+    display: block;
+    margin-right: 40px;
+}
 /* footer */
 .footer {
     background-color: #2F303A;
@@ -184,7 +223,15 @@ ul {
         line-height: 1.6;
         background-color: #F5F4FA;
         color: var(--slabo-cherniy);
+        margin-right: 30px;
+        margin-bottom: 55px;
+        margin-top: 110px;
 }
+.navigasia {
+    display: flex;
+    justify-content: center;
+}
+
 .navigasia .button:hover,
 .navigasia .button:focus {
     color: var(--beliy);
@@ -205,4 +252,13 @@ ul {
 }
 .menu .cilka {
     text-decoration: none;
+}
+.menu {
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu .li {
+    width: 370px;
+    margin-right: 15px;
 }
