@@ -12,22 +12,20 @@
     box-sizing: border-box;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
+ul
+{
+padding: 0;
+margin: 0;
+list-style: none
 }
 
-/* ROOT */
+/* ROOT */ 
 :root{
 --seriy: #757575;
 --slabo-cherniy:#212121;
 --cherniy:#000000;
 --siniy:#2196F3;
 --beliy:#FFFFFF;
-}
-
-ul {
-    list-style: none
 }
 /* Body */
 .body{
@@ -59,14 +57,39 @@ ul {
     color: var(--siniy);
 }
 /* Shapka */
-.header , 
-.nav{
+
+.header {
+   margin-bottom: 32px;
+   margin-top: 32px;
+}
+
+.konteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .flex {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
-.header {
-    width: 1250px;
+ .navigacia .flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+ }
+  .ul .flex {
+    display: flex;
+    align-items: center;
+    margin-left: 355px;
+    gap: 35px;
+  }
+
+.navigacia .item {
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .header .web {
@@ -103,9 +126,10 @@ ul {
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.2;
+
     text-decoration: none;
-    width: 700;
     color: var(--cherniy);
+
     margin-right: 93px;
 }
 .header .email {
@@ -123,52 +147,44 @@ ul {
         text-decoration: none;
 }
 
-.header .navigacia {
-    display: flex;
-}
-.header .ul {
-    display: flex;
-}
-
-.navigacia .item {
-    display: block;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin-right: 100px;
-}
-
-.ul .item {
-    display: block;
-    margin-right: 40px;
-}
-
-
      /* Hero */
 .posluga {
     background-color: var(--siniy);
     color: var(--beliy);
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 1.8;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    height: 50px;
+    width: 200px;
 }
 .hero-section {
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 1200px;
+    margin: auto;
 }
 .hero-text {
     color: #FFFFFF;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
+    margin-bottom: 45px;
+    margin-top: 0px;
 }
 /* Perevagi */
 .perevagi{
-    width: 1170px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 135px;
 }
 
 .perevagi .ul {
     display: flex;
     justify-content: space-around;
+    gap: 50px;
 }
 .perevagi .item {
     width: 250px;
@@ -180,7 +196,6 @@ ul {
     font-weight: 700;
     line-height: 1.14;
     color:var(--slabo-cherniy) ;
-    margin-top: 90px;
 }
 
 .perevagi .text {
@@ -196,17 +211,25 @@ ul {
     line-height: 1.16;
     color: var(--slabo-cherniy);
     text-align: center;
-    margin-top: 133px;
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 .zanatia .ul {
     display: flex;
     justify-content: space-around;
-
+    gap: 30px;
+}
+.zanatia {
+    margin-bottom: 200px;
 }
 /* Komanda */
 .comanda-section {
     background-color: #F5F4FA;
-    width: 1170px;
+    width: 1200px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 95px;
 }
 .comanda-section .zagolovok-komanda {
         font-size: 36px;
@@ -214,7 +237,8 @@ ul {
         line-height: 1.16;
         color: var(--slabo-cherniy);
         text-align: center;
-        margin-top: 190px;
+        margin-top: 0px;
+        margin-bottom: 60px;
 }
 .comanda-section .ima {
         font-size: 16px;
@@ -230,12 +254,14 @@ ul {
 }
 .comanda-section .comanda-ul {
     display: flex;
+    gap: 30px;
 }
 
 /* Footer */
 .footer {
  background-color: #2F303A;
- margin-top: 120px;
+ margin-top: 0px;
+ height: 251px;
 }
 .footer .web {
     font-family: Raleway;
