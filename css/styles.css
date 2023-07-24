@@ -53,7 +53,7 @@ list-style: none
 /* Shapka */
 
 .header {
-   
+   border-bottom: 1px solid rgb(217,217,217,1);
 }
 
 .konteiner {
@@ -187,7 +187,7 @@ list-style: none
     line-height: 1.14;
     color:var(--slabo-cherniy) ;
     margin-top: 0px;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
 }
 
 .perevagi .text {
@@ -199,7 +199,7 @@ list-style: none
     margin-bottom: 0px;
 }
 /* Zanatia */
-.zanatia .zagolovok {
+.nashizanatia .zagolovok {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -208,26 +208,20 @@ list-style: none
     margin-top: 0px;
     margin-bottom: 60px;
 }
-.zanatia .ul {
+.nashizanatia .ul {
     display: flex;
     gap: 30px;
 }
-.zanatia {
-    padding-bottom: 94px;
-}
 
-.zanatia .kartinka {
+.nashizanatia .kartinka {
     display: block;
 }
 
 /* Komanda */
 .comanda-section {
     background-color: #F5F4FA;
-    width: 1200px;
-    height: 450px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 95px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .comanda-section .zagolovok-komanda {
         font-size: 36px;
@@ -243,12 +237,16 @@ list-style: none
         font-weight: 500;
         line-height: 1.18;
         color: var(--slabo-cherniy);
+        margin-bottom: 18px;
+        margin-top: 0px;
 }
 .comanda-section .zanatia {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.18;
         color: var(--seriy);
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
 .comanda-section .comanda-ul {
     display: flex;
@@ -258,8 +256,8 @@ list-style: none
 /* Footer */
 .footer {
  background-color: #2F303A;
- margin-top: 0px;
- height: 251px;
+ padding-top: 60px;
+ padding-bottom: 60px;
 }
 .footer .web {
     font-family: Raleway;
@@ -296,7 +294,6 @@ list-style: none
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    width: 700;
     color: var(--beliy);
 }
 
@@ -306,7 +303,8 @@ list-style: none
     font-weight: 400;
     line-height: 1.14;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 14px;
 }
 
 .footer .nomer {
@@ -317,10 +315,17 @@ list-style: none
     font-style: normal;
     color: rgba(255, 255, 255, 0.6)
 }
+
+.footer .li {
+    margin-bottom: 14px;
+}
+
 .gorod {
         font-size: 14px;
         font-weight: 400;
         line-height: 1.7;
         color: var(--beliy);
-         font-style: normal;
+        font-style: normal;
+        margin-top: 36px;
+        margin-bottom: 14px;
 }

@@ -8,6 +8,7 @@
 ul {
     padding: 0;
     margin: 0;
+    list-style: none
 }
 /* ROOT */
 :root {
@@ -17,9 +18,7 @@ ul {
     --siniy: #2196F3;
     --beliy: #FFFFFF;
 }
-ul {
-    list-style: none
-}
+
 /* Body */
 .body {
     font-family: Roboto, sans-serif;
@@ -55,8 +54,7 @@ ul {
 
 /* Shapka */
 .header {
-    margin-bottom: 110px;
-    margin-top: 32px;
+    border-bottom: 1px solid rgb(217, 217, 217, 1);
 }
 
 .konteiner {
@@ -72,22 +70,21 @@ ul {
     align-items: center;
 }
 
-.navigacia .flex {
+.header .navigacia {
     display: flex;
-    align-items: center;
     gap: 50px;
 }
 
-.ul .flex {
+.header .ul {
     display: flex;
-    align-items: center;
-    margin-left: 355px;
+    margin-left: auto;
     gap: 35px;
 }
 
 .navigacia .item {
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 
 .header .web {
@@ -152,8 +149,8 @@ ul {
 /* footer */
 .footer {
     background-color: #2F303A;
-    margin-top: 0px;
-    height: 251px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .web {
@@ -191,7 +188,6 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    width: 700;
     color: var(--beliy);
 }
 
@@ -201,7 +197,8 @@ ul {
     font-weight: 400;
     line-height: 1.14;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 14px;
 }
 
 .footer .nomer {
@@ -213,13 +210,20 @@ ul {
     color: rgba(255, 255, 255, 0.6)
 }
 
+.footer .li {
+    margin-bottom: 14px;
+}
+
 .gorod {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
     color: var(--beliy);
     font-style: normal;
+    margin-top: 36px;
+    margin-bottom: 14px;
 }
+
 /* Knopki */
 .navigasia .button {
         font-size: 16px;
