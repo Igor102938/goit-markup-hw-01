@@ -187,7 +187,7 @@ list-style: none
     line-height: 1.14;
     color:var(--slabo-cherniy) ;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
 .perevagi .text {
@@ -206,7 +206,7 @@ list-style: none
     color: var(--slabo-cherniy);
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .nashizanatia .ul {
     display: flex;
@@ -215,6 +215,9 @@ list-style: none
 
 .nashizanatia .kartinka {
     display: block;
+}
+.nashizanatia {
+    padding-bottom: 94px;
 }
 
 /* Komanda */
@@ -230,14 +233,14 @@ list-style: none
         color: var(--slabo-cherniy);
         text-align: center;
         margin-top: 0px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
 }
 .comanda-section .ima {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.18;
         color: var(--slabo-cherniy);
-        margin-bottom: 18px;
+        margin-bottom: 13px;
         margin-top: 0px;
 }
 .comanda-section .zanatia {
@@ -251,6 +254,12 @@ list-style: none
 .comanda-section .comanda-ul {
     display: flex;
     gap: 30px;
+}
+
+.comanda-section .blok-kartinka {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
 }
 
 /* Footer */
@@ -321,11 +330,15 @@ list-style: none
 }
 
 .gorod {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 1.7;
-        color: var(--beliy);
-        font-style: normal;
-        margin-top: 36px;
-        margin-bottom: 14px;
+     font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--beliy);
+    font-style: normal;
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
+
+.footer .address {
+    margin-top: 36px;
 }

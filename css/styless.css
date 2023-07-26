@@ -146,6 +146,11 @@ ul {
     color: var(--seriy);
     text-decoration: none;
 }
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* footer */
 .footer {
     background-color: #2F303A;
@@ -226,19 +231,22 @@ ul {
 
 /* Knopki */
 .navigasia .button {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.6;
-        background-color: #F5F4FA;
-        color: var(--slabo-cherniy);
-
+     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    background-color: #F5F4FA;
+    color: var(--slabo-cherniy);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
 }
 .navigasia {
     display: flex;
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 50px;
-    gap: 30px;
+    gap: 8px;
 }
 
 .navigasia .button:hover,
@@ -247,31 +255,42 @@ ul {
     background-color: var(--siniy);
 }
 /* Ocnovnoi kontent */
+.menu {
+    margin: -15px;
+}
+
 .menu .zagolovok {
         font-size: 18px;
         font-weight: 700;
         line-height: 2;
         color: var(--slabo-cherniy);
+        margin-top: 0px;
+        margin-bottom: 4px;
 }
 .menu .p {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.8;
         color: var(--seriy);
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
-.menu .cilka {
+.menu .kartinka {
     text-decoration: none;
+    display: block;
 }
-.menu {
-    width: 1200px;
+.flex .menu {
     display: flex;
     flex-wrap: wrap;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 95px;
 }
 .menu .li {
-    width: 370px;
     margin: 15px;
+}
 
+.menu .div {
+    border: 1px solid rgba(238, 238, 238, 1);
+    padding-top: 31px;
+    padding-bottom: 26px;
+    padding-left: 26px;
+    padding-right: 31px;
 }
