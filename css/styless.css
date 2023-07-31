@@ -147,8 +147,8 @@ ul {
     text-decoration: none;
 }
 .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* footer */
@@ -216,7 +216,7 @@ ul {
 }
 
 .footer .li {
-    margin-bottom: 14px;
+    margin-bottom: 13px;
 }
 
 .gorod {
@@ -227,6 +227,10 @@ ul {
     font-style: normal;
     margin-top: 36px;
     margin-bottom: 14px;
+}
+
+.footer .address {
+    margin-top: 30px;
 }
 
 /* Knopki */
@@ -279,6 +283,11 @@ ul {
     text-decoration: none;
     display: block;
 }
+
+.menu .ccilka {
+    text-decoration: none;
+}
+
 .flex .menu {
     display: flex;
     flex-wrap: wrap;
@@ -288,9 +297,11 @@ ul {
 }
 
 .menu .div {
-    border: 1px solid rgba(238, 238, 238, 1);
-    padding-top: 31px;
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-right: 1px solid rgba(238, 238, 238, 1);
     padding-bottom: 26px;
     padding-left: 26px;
     padding-right: 31px;
 }
+

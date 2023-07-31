@@ -262,6 +262,10 @@ list-style: none
         text-align: center;
 }
 
+.comanda-section .kartinka {
+    display: block;
+}
+
 /* Footer */
 .footer {
  background-color: #2F303A;
@@ -326,7 +330,7 @@ list-style: none
 }
 
 .footer .li {
-    margin-bottom: 14px;
+    margin-bottom: 13px;
 }
 
 .gorod {
@@ -340,5 +344,5 @@ list-style: none
 }
 
 .footer .address {
-    margin-top: 36px;
+    margin-top: 30px;
 }
