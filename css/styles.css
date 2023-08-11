@@ -75,7 +75,7 @@ list-style: none
   .header .ul  {
     display: flex;
     margin-left: auto;
-    gap: 35px;
+    gap: 40px;
   }
 
 .navigacia .item {
@@ -160,7 +160,7 @@ list-style: none
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -187,7 +187,7 @@ list-style: none
     line-height: 1.14;
     color:var(--slabo-cherniy) ;
     margin-top: 0px;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 .perevagi .text {
@@ -240,7 +240,7 @@ list-style: none
         font-weight: 500;
         line-height: 1.18;
         color: var(--slabo-cherniy);
-        margin-bottom: 13px;
+        margin-bottom: 10px;
         margin-top: 0px;
 }
 .comanda-section .zanatia {
@@ -330,7 +330,7 @@ list-style: none
 }
 
 .footer .li {
-    margin-bottom: 13px;
+    margin-bottom: 12px;
 }
 
 .gorod {
@@ -339,10 +339,10 @@ list-style: none
     line-height: 1.7;
     color: var(--beliy);
     font-style: normal;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
     margin-top: 0px;
 }
 
 .footer .address {
-    margin-top: 30px;
+    margin-top: 38px;
 }

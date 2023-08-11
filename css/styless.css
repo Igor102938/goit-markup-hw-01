@@ -216,7 +216,7 @@ ul {
 }
 
 .footer .li {
-    margin-bottom: 13px;
+    margin-bottom: 12px;
 }
 
 .gorod {
@@ -226,11 +226,11 @@ ul {
     color: var(--beliy);
     font-style: normal;
     margin-top: 36px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 
 .footer .address {
-    margin-top: 30px;
+    margin-top: 38px;
 }
 
 /* Knopki */
@@ -269,7 +269,7 @@ ul {
         line-height: 2;
         color: var(--slabo-cherniy);
         margin-top: 0px;
-        margin-bottom: 4px;
+        margin-bottom: 0px;
 }
 .menu .p {
         font-size: 16px;
@@ -300,8 +300,9 @@ ul {
     border-bottom: 1px solid rgba(238, 238, 238, 1);
     border-left: 1px solid rgba(238, 238, 238, 1);
     border-right: 1px solid rgba(238, 238, 238, 1);
-    padding-bottom: 26px;
-    padding-left: 26px;
-    padding-right: 31px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
